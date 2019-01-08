@@ -9,6 +9,7 @@ for j in range(x,y):
         a=a+r**3
         j=j//10
     if a==z:
-       print(a,end=" ")
+       print(a, end=" ")
 print()
 #still one test case 
+#still asdd
