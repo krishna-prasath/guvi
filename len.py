@@ -1,2 +1,2 @@
 a=int(input())
-print(len(str(a))
+print(len(str(a)))
