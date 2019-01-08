@@ -1,7 +1,9 @@
 a,b=map(int,input().split())
+z=[]
 for i in range(a+1,b):
     if i%2==1:
-        print(i,end=" ")
+        z.append(i)
+print(*z)
         
 #above is to find inbetween odd no's
     
