@@ -11,3 +11,4 @@ for j in range(x,y):
     if a==z:
        print(a,end=" ")
 print()
+#still one test case 
