@@ -10,3 +10,4 @@ for j in range(x,y):
         j=j//10
     if a==z:
        print(a,end=" ")
+print()
