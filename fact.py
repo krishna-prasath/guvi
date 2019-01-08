@@ -1,6 +1,7 @@
 a=int(input())
-z=1
+b=1
 for i in range(1,a+1):
-    z=z*i
-print(z)
+    b=b*i
+print(b)
     
+#prints factorial
