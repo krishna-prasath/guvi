@@ -1,6 +1,6 @@
 x,y=map(int,input().split())
 z=0
-
+c=[]
 for j in range(x,y):
     z=j
     a=0
@@ -9,7 +9,7 @@ for j in range(x,y):
         a=a+r**3
         j=j//10
     if a==z:
-       print(a, end=" ")
-print()
+      c.append(a)
+print(*z)
 #still one test case 
-#still asdd
+#changes done bro....
