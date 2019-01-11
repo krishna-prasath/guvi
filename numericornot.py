@@ -2,4 +2,4 @@ try:
   a=float(input())
   print("yes")
 except ValueError:
-  print("no")
+  print("No")
