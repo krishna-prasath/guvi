@@ -1,0 +1,6 @@
+a=input()
+b=len(a)
+for i in a:
+  if i==" ":
+    b=b-1
+print(b)
