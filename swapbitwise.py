@@ -3,3 +3,4 @@ a=a^b
 b=a^b
 a=a^b
 print(a,b)
+# everyone' doing just the same man
