@@ -1,0 +1,9 @@
+z=int(input())
+a1,a,b,i=[],0,1,0
+a1.append(b)
+while(i<z-1):
+    c=a+b
+    a1.append(c)
+    a,b=b,c
+    i=i+1
+print(*a1)
