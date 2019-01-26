@@ -4,4 +4,7 @@ z=[]
 for i in range(a):
     if b[i]==i:
         z.append(b[i])
-print(*z)
+if len(z)>0:
+    print(*z)
+else:
+    print(-1)
