@@ -1,0 +1,3 @@
+a=int(input())
+print(a+1)
+#simple as eating ice cream ....
