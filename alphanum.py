@@ -9,3 +9,5 @@ if c1>0 and c>0:
 	print("Yes")
 else:
 	print("No")
+
+	#forgot capital Y?N
