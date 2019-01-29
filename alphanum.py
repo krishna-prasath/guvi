@@ -6,6 +6,6 @@ for i in a1:
 	elif i.isalpha():
 		c1=c1+1
 if c1>0 and c>0:
-	print("yes")
+	print("Yes")
 else:
-	print("no")
+	print("No")
