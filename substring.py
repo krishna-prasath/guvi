@@ -1,3 +1,4 @@
+z,x=map(int,inptut().split())
 a=list(map(int,input().split()))
 b=list(map(int,input().split()))
 c=0
@@ -9,3 +10,4 @@ if c>1:
 else:
     print("NO")
     
+#forgot my input
