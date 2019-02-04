@@ -5,7 +5,7 @@ for i in b:
     if i in a:
         c=c+1
 if c>1:
-    print("yes")
+    print("YES")
 else:
-    print("no")
+    print("NO")
     
