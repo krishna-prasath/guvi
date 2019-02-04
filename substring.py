@@ -1,4 +1,4 @@
-z,x=map(int,inptut().split())
+z,x=map(int,input().split())
 a=list(map(int,input().split()))
 b=list(map(int,input().split()))
 c=0
