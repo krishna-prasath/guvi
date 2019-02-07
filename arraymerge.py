@@ -5,6 +5,6 @@ for i in range(k):
 for i in range(len(z)):
     x=x+z[i]
 x.sort()
-print(x)
+print(*x)
 
-    
+   #missed my star
