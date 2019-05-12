@@ -1,8 +1,6 @@
 z=int(input())
 a=list(map(int,input().split()))
 z=""
-a.sort(reverse=True)
-for i in a:
-    z=z+str(i)+'->'
-
+for i in range(-1,-len(a)-1,-1):
+    z=z+str(a[i])+'->'
 print(z[0:-2])
