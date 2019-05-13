@@ -2,9 +2,9 @@ n=int(input())
 a=list(map(int,input().split()))
 s=set(a)
 s=list(s)
-z,c=0,0
+z=0
 for i in range(len(s)):
-    c=0
+    c=0                                   #missed the count variable
     for j in range(len(a)):
         if s[i]==a[j]:
             c+=1
