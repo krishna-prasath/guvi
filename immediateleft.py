@@ -7,4 +7,4 @@ for i in range(n-1):
     else:
         a.append(-1)
 a.append(-1)
-print(a)
+print(*a) #missed the * in the output
