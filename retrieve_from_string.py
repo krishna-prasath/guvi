@@ -4,6 +4,8 @@ a1,b1,="","",
 l1,l2=[],[]
 for i in range(len(a)):
     if a[i]=='#':                                                     #may look complex but simple as hell
+                                                                      # u know why my code looks big becoz i did'nt use Split() funtion
+                                                                      #and that cost me 34 lines of code
         a1=a[:i]
         break
 for i in range(len(a)):
