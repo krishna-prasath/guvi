@@ -1,5 +1,9 @@
 a=input()
 c=0
-for i in range(len(a)):
-    c=c+(int(a[i])**i)
-print(c)
+if a=='1':
+    print(1)
+else:
+    for i in range(len(a)):
+        c=c+(int(a[i])**i)
+    print(c)
+#stupid conditions
