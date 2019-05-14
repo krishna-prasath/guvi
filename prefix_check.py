@@ -1,10 +1,11 @@
 n=int(input())
-a=list(map(int,input().split()))
-k=int(input())
-x,c,count=[],len(str(k)),0
+a=list(map(str,input().split()))
+k=input()
+x,c,count=[],len(k),0
 for i in range(n):
-    x.append(str(a[i])[:c])
+    x.append(a[i][:c])
 for i in range(n):
-    if x[i]==str(k):
+    if x[i]==k:
         count+=1
-print(count)
+print(count)    #input data type must be carefully obtained!!!!!!!!!!!!!!1
+    
