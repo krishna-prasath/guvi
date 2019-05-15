@@ -1,2 +1,4 @@
 a=int(input())
-print(a*2//2)
+a=a*2//2
+print(a)
+#  what kind of problem is this
