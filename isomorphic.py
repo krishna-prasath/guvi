@@ -9,16 +9,13 @@ else:
             di[a[i]]=1
         else:      
             di[a[i]]=di[a[i]]+1
-
     for i in range(len(b)):
         if b[i] not in di2:
             di2[b[i]]=1
         else:
             di2[b[i]]=di2[b[i]]+1
-    print(di)
-    print(di2)
     for keys in di:
-        a1.append(di[keys])
+        a1.append(di[keys])                                                         #using a hash concept
     for keys in di2:
         b1.append(di2[keys])
     for i in range(len(a1)):
@@ -28,5 +25,3 @@ else:
         print("yes")
     else:
         print("no")
-        
-        
