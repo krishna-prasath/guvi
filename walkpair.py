@@ -1,3 +1,4 @@
 a=int(input())
-print(a*(a-1)//2)
+z=(a*(a-1)//2)
+print(z)
 #everyone would use just the same
