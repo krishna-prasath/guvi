@@ -1,2 +1,2 @@
 n=input()
-print(n+" Answer")
+print(n+" Answer")        #everybody would have tried this
